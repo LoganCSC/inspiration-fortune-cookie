@@ -1,3 +1,3 @@
 # inspiration-fortune-cookie
 
-flkfdslkfdsjgdlkfj;l
+This fortune cookie app will display a random fortune based on your mood.
