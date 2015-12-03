@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
     <head>
 
         <title>Inspirational Fortune Cookie</title>
         <link rel="stylesheet" type="text/css" href="interface.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="index.js"></script>
+        
         <script type="text/javascript">
-  WebFontConfig = {
+  var WebFontConfig = {
     google: { families: [ 'Amatic+SC:400,700:latin' ] }
   };
   (function() {
@@ -21,7 +23,7 @@
   
     </head>
     
-    <body>
+    <body onload="loadFortunes()">
          <ul class="navigation">
             <li>Meme</li>
             <li>Cocky</li>
