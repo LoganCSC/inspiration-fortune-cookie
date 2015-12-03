@@ -10,7 +10,7 @@ h1 {
 
 section {
     text-align: center;
-    top: 50%;
+    padding-top: 50vh;
 }
 
 header {
@@ -71,17 +71,14 @@ li {
 /* Site Wrapper - Everything that isn't navigation */
 .site-wrap {
   /* Critical position and size styles */
-  height: 150%;
-  width: 150%;
+  width: 100%;
   background-color: #fff; /* Needs a background or else the nav will show through */
   position: relative;
   top: 0;
   bottom: 100%;
   left: 0; 
   z-index: 1;
-  
-  /* non-critical apperance styles */
-  padding: 10em;
+  height: 100vh;
   background-image: url("background.jpg");
 }
 
@@ -97,8 +94,6 @@ label[for="nav-trigger"] {
   position: fixed;
   left: 15px; top: 15px;
   z-index: 2;
-  
-  /* non-critical apperance styles */
   height: 30px;
   width: 30px;
   cursor: pointer;

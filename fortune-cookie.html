@@ -5,6 +5,8 @@
 
         <title>Inspirational Fortune Cookie</title>
         <link rel="stylesheet" type="text/css" href="interface.css" />
+        <script src="index.js"></script>
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
         <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Amatic+SC:400,700:latin' ] }
@@ -18,10 +20,9 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
-  
     </head>
     
-    <body>
+    <body onload="loadFortunes();">
          <ul class="navigation">
             <li>Meme</li>
             <li>Cocky</li>
@@ -33,6 +34,8 @@
             <li>Inspirational</li>
             <li>Stupid</li>
             <li>Special</li> 
+            <li>Sad</li>
+            <li>Raging</li>
         </ul>
         
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
