@@ -20,4 +20,8 @@
      });
  }
  
-var obj = JSON.parse(text);
+ for (prop in json)
+    console.log(prop+"in");
+    $("ul.emotions").append("<li>"+prop+"</li>");
+    
+ 
