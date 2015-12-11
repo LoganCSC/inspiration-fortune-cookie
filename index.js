@@ -1,8 +1,11 @@
  function loadFortunes() {
      $(document).ready(function() {
 
-          $.getJSON("index.json", function(json) {
+          $.getJSON("fortunes.json", function(json) {
              console.log("success" + JSON.stringify(json));
+             for(var emotion in json) {
+                 console.log(json.open[emotion].length)
+             }
           });
           //.done(function(json) {
           //   console.log("second success" + JSON.stringify(json));
@@ -16,3 +19,5 @@
           //});
      });
  }
+ 
+var obj = JSON.parse(text);
