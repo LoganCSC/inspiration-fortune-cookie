@@ -21,7 +21,10 @@
  }
  
  for (prop in json)
-    console.log(prop+"in");
+    console.log(prop+"\n");
     $("ul.emotions").append("<li>"+prop+"</li>");
-    
+
+_.each(json["mean"], function(fortune,i) {
+    console.log(i+""+fortune);
+});
  
