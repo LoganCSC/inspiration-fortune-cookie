@@ -1,35 +1,50 @@
 {
-	"mean":[
-"Once there was an ugly barnacle. He was so ugly, that everyone died. THE END. -Patrick",
-"Hey pal, you just blow in from stupid town? -random fish guy",
-"I hate everyone. -Squidward",
-"Well maybe we wouldn’t sound so bad if some people didn’t try playing with BIG MEATY CLAWS - random fish guys",
-"Just get outta here, you stupid, dumb animal! -Spongebob",
-"Gary, go away, can’t you see I’m trying to forget you? - Spongebob"
-	],
-	"cocky":[
-"How tough am I? Yesterday I stubbed my toe, while watering my spice garden , and I only cried for 20 minutes. -Spongebob",
-"You don’t need a license to drive a sandwich. -Spongebob"
-	],
-	"raging" :[
-"It took us three days to make that potato salad.  THREE DAYS -random fish guy",
-"No! This is Patrick! -Patrick",
-"I can’t see my forehead! -Patrick",
-"Insulting a man’s ship is worse than insulting his mother! -The Flying Dutchman"
-	],
-	"dark":[
-"If I were to die right now in some sort of fiery explosion due to the carelessness of a friend, well, that would be okay. -Spongebob",
-"F is for fire that burns down the whole town, U is for uranium...bombs! N is for no survival! - Plankton"
-	],
-	"dank memes":[
-"You like dank memes, don’t you Squidward? -Spongebob",
-"Jewey you are gonna make dank memes, and you are gonna like it -Spongebob"
-	],
-	"humorous":[
-"I’m already hearing voices! -Patrick",
-"Who are you people? -Patrick",
-"Can I be excused for the rest of my life? -Spongebob",
-"Well, it is no secret that the best thing about secrets is telling someone else your secret, thereby adding another secret to your secret collection of secrets, secretly.-Spongebob"
+	"mean": {
+		color: "#cc0000"
+		fortunes: [
+			"Once there was an ugly barnacle. He was so ugly, that everyone died. THE END. -Patrick",
+			"Hey pal, you just blow in from stupid town? -random fish guy",
+			"I hate everyone. -Squidward",
+			"Well maybe we wouldn’t sound so bad if some people didn’t try playing with BIG MEATY CLAWS - random fish guys",
+			"Just get outta here, you stupid, dumb animal! -Spongebob",
+			"Gary, go away, can’t you see I’m trying to forget you? - Spongebob"
+		]
+	},
+	"cocky": {
+		color: "#ff8000"
+		fortunes: [
+			"How tough am I? Yesterday I stubbed my toe, while watering my spice garden , and I only cried for 20 minutes. -Spongebob",
+			"You don’t need a license to drive a sandwich. -Spongebob"
+		]
+	},
+	"raging" : {
+		color: "#b30000"
+		fortunes: [
+			"It took us three days to make that potato salad.  THREE DAYS -random fish guy",
+			"No! This is Patrick! -Patrick",
+			"I can’t see my forehead! -Patrick",
+			"Insulting a man’s ship is worse than insulting his mother! -The Flying Dutchman"
+		]
+	},
+	"dark": {
+		color: "#000000"
+		fortunes: [
+			"If I were to die right now in some sort of fiery explosion due to the carelessness of a friend, well, that would be okay. -Spongebob",
+			"F is for fire that burns down the whole town, U is for uranium...bombs! N is for no survival! - Plankton"
+		]
+	},
+	"dank memes": {
+		color: "#0000ff"
+		fortunes: [
+			"You like dank memes, don’t you Squidward? -Spongebob",
+			"Jewey you are gonna make dank memes, and you are gonna like it -Spongebob"
+		]
+	},
+	"humorous": {
+		"I’m already hearing voices! -Patrick",
+		"Who are you people? -Patrick",
+		"Can I be excused for the rest of my life? -Spongebob",
+		"Well, it is no secret that the best thing about secrets is telling someone else your secret, thereby adding another secret to your secret collection of secrets, secretly.-Spongebob"
 	],
 	"happy":[
 "I’m ready to party! -Patrick"

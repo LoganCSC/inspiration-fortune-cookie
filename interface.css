@@ -82,7 +82,7 @@ li {
   
   /* non-critical apperance styles */
   padding: 10em;
-  background-image: url("background.jpg");
+  background: url('background.jpg');
 }
 
 /* Nav Trigger */
