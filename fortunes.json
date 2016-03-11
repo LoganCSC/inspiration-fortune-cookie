@@ -1,7 +1,7 @@
 {
 	"mean": {
-		color: "#cc0000"
-		fortunes: [
+		"color": "#cc0000",
+		"fortunes": [
 			"Once there was an ugly barnacle. He was so ugly, that everyone died. THE END. -Patrick",
 			"Hey pal, you just blow in from stupid town? -random fish guy",
 			"I hate everyone. -Squidward",
@@ -11,15 +11,15 @@
 		]
 	},
 	"cocky": {
-		color: "#ff8000"
-		fortunes: [
+		"color": "#ff8000",
+		"fortunes": [
 			"How tough am I? Yesterday I stubbed my toe, while watering my spice garden , and I only cried for 20 minutes. -Spongebob",
 			"You don’t need a license to drive a sandwich. -Spongebob"
 		]
 	},
 	"raging": {
-		color: "#b30000"
-		fortunes: [
+		"color": "#b30000",
+		"fortunes": [
 			"It took us three days to make that potato salad.  THREE DAYS -random fish guy",
 			"No! This is Patrick! -Patrick",
 			"I can’t see my forehead! -Patrick",
@@ -27,22 +27,22 @@
 		]
 	},
 	"dark": {
-		color: "#000000"
-		fortunes: [
+		"color": "#000000",
+		"fortunes": [
 			"If I were to die right now in some sort of fiery explosion due to the carelessness of a friend, well, that would be okay. -Spongebob",
 			"F is for fire that burns down the whole town, U is for uranium...bombs! N is for no survival! - Plankton"
 		]
 	},
 	"dank memes": {
-		color: "#0000ff"
-		fortunes: [
+		"color": "#0000ff",
+		"fortunes": [
 			"You like dank memes, don’t you Squidward? -Spongebob",
 			"Jewey you are gonna make dank memes, and you are gonna like it -Spongebob"
 		]
 	},
 	"humorous": {
-		color: "#ffff00"
-		fortunes: [
+		"color": "#ffff00",
+		"fortunes": [
 			"I’m already hearing voices! -Patrick",
 			"Who are you people? -Patrick",
 			"Can I be excused for the rest of my life? -Spongebob",
@@ -50,14 +50,14 @@
 		]
 	},
 	"happy": {
-		color: "#ffffd8"
-		fortunes: [
+		"color": "#ffffd8",
+		"fortunes": [
 			"I’m ready to party! -Patrick"
 		]
 	},
 	"reality": {
-		color: "#0080ff"
-		fortunes: [
+		"color": "#0080ff",
+		"fortunes": [
 			"I’m absorbing his blows like I was made of some sort of spongy material! -Spongebob",
 			"Well it’s no secret that the best thing about secrets is secretly telling someone your secret thereby adding another secret to your secret collection of secrets . . . secretly. -Spongebob",
 			"Sometimes we have to go deep inside ourselves to solve our problems. - Patrick",
@@ -65,8 +65,8 @@
 		]
 	},
 	"inspirational": {
-		color: "#8000ff"
-		fortunes: [
+		"color": "#8000ff",
+		"fortunes": [
 			"I’m ugly and I’m proud. -Spongebob",
 			"Am I a pretty girl? -Spongebob",
 			"Firmly grasp it. -Patrick",
@@ -74,16 +74,17 @@
 		]
 	},
 	"stupid": {
-		color: "df0b2c"
-		fortunes: [
-		"I love being purple! -Patrick",
-		"LEEDLE LEEDLE LEEDLE LEE! -Patrick",
-		"Is this the Krusty Krab? . . .  No, this is Patrick. -Patrick",
-		"Is mayonnaise an instrument? -Patrick"
-	],
+		"color": "df0b2c",
+		"fortunes": [
+	    	"I love being purple! -Patrick",
+			"LEEDLE LEEDLE LEEDLE LEE! -Patrick",
+			"Is this the Krusty Krab? . . .  No, this is Patrick. -Patrick",
+			"Is mayonnaise an instrument? -Patrick"
+ 	    ]
+ 	},
 	"special": {
-		color: "#00c400"
-		fortunes: [
+		"color": "#00c400",
+		"fortunes": [
 			"A beautiful, smart, and loving person will be coming into your life.",
 			"A dubious friend may be an enemy in camouflage.",
 			"A feather in the hand is better than a bird in the air.",
@@ -395,6 +396,4 @@
 			"Your work interests can capture the highest status or prestige."
 		]
 	}
-
-]
 }

@@ -35,7 +35,7 @@ function breakFortuneCookie() {
    $('#fortune-image-cookie').attr('src', "brokenfortune.png");
    var fortuneArray = emotionJSON[currentEmotion].fortunes;
    var randomNumber = Math.floor(Math.random()*fortuneArray.length);
-   $('#fortuneBox').H(fortuneArray[randomNumber]);
+   $('#fortuneBox').text(fortuneArray[randomNumber]);
  }
 }
 
