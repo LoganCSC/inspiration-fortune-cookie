@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
     <head>
 
         <title>Inspirational Fortune Cookie</title>
         <link rel="stylesheet" type="text/css" href="interface.css" />
+        <script src="jquery.min.js"></script>
         <script src="index.js"></script>
-        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        
         <script type="text/javascript">
-  WebFontConfig = {
+  var WebFontConfig = {
     google: { families: [ 'Amatic+SC:400,700:latin' ] }
   };
   (function() {
@@ -20,33 +20,29 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
+  
+  
     </head>
     
-    <body onload="loadFortunes();">
-         <ul class="navigation">
-            <li>Meme</li>
-            <li>Cocky</li>
-            <li>Angry</li>
-            <li>Dark</li>
-            <li>Humorous</li>
-            <li>Happy</li>
-            <li>Reality</li>
-            <li>Inspirational</li>
-            <li>Stupid</li>
-            <li>Special</li> 
-            <li>Sad</li>
-            <li>Raging</li>
-        </ul>
+    <body>
+         <div>
+           <ul class="emotions">
+            
+            </ul>
+        </div>
         
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger"></label>
 
-     <div class="site-wrap">
+     <div id="content" class="site-wrap">
         <header>
             <h1>Fortune Cookie</h1>
         </header>
         <section>
-            <img src="https://amisart.files.wordpress.com/2013/11/fortune-cookie.png"/>
+            <div class='mainPage'>
+                <div id='fortuneBox'></div>
+                <img onClick="breakFortuneCookie()" id='fortune-image-cookie' src="repairedfortune.png"/>
+            </div>
         </section>
     </div>
     </body>
