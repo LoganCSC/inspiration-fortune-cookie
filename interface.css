@@ -119,3 +119,9 @@ code {
     padding: 2px;
     background: #ddd;
 }
+
+#fortuneBox {
+  top: 65%;
+  left: 45%;
+  position: absolute;
+}
